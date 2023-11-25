@@ -22,7 +22,7 @@ protocol NewsViewModel {
 final class DefaultNewsViewModel: NewsViewModel {
     
     // MARK: - Properties
-    private let newsAPI = "https://newsapi.org/v2/everything?q=tesla&from=2023-11-11&sortBy=publishedAt&apiKey=ce67ca95a69542b484f81bebf9ad36d5"
+    private let newsAPI = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8573d1e70d304f21b67676f56b9a4fa3"
     
     private var newsList = [News]()
     
